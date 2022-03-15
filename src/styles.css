@@ -1,0 +1,8 @@
+.background-gray {
+    background-color: #f3f3f3;
+}
+
+:root {
+    --strtsys-prm-color: #00a1e0;
+    --strtsys-warn-color: #ff4433;
+}

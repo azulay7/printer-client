@@ -14,5 +14,11 @@
         .job-item-details {
             margin-left: 1rem;
         }
+
+        .job-active-controls {
+            button {
+                color: var(--strtsys-warn-color);
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './JobList.scss';
-import '../style.css'
+import '../styles.css'
 import JobItem from './JobItem'
 
 function JobList({jobs}) {
@@ -8,7 +8,7 @@ function JobList({jobs}) {
     <div className='job-list-container'>
       <div className="job-list-header background-gray">
         <span>QUEUE</span>
-        <button className='add-job-btn stratasys-blue'>ADD A JOB</button>
+        <button className='add-job-btn' onclick="newJobDialog()">ADD A JOB</button>
       </div>
       <ul>
         {jobs.map(job =>  <JobItem key={job.name} job={job}></JobItem> )}

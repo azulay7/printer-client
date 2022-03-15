@@ -15,7 +15,7 @@ function JobItem({ job }) {
                     <h2>{job.duration}</h2>
                 </div>
                 <div className='job-active-controls'>
-                    <button><FaTrashAlt color='#FF4433'/></button>
+                    <button><FaTrashAlt /></button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './JobDetails.css'
-import '../style.css'
+import '../styles.css'
 import { FaPause } from 'react-icons/fa';
 function JobDetails({ job }) {
   return (
