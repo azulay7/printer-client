@@ -1,0 +1,22 @@
+.job-details {
+    width: 50%;
+    border-right: 1px solid black;
+}
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+.time-left {
+    color: blue;
+}
+
+.job-master-details {
+    display: flex;
+}
+
+.job-timing {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.job-item-container {
+    display: flex;
+
+    .job-order-controls {
+        display: flex;
+        flex-direction: column;
+    }
+    .job-content {
+        width: 100%;
+        display: flex;
+        .job-details {
+        }
+    }
+}

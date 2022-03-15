@@ -1,0 +1,12 @@
+.job-list-container {
+    width: 50%;
+}
+.job-list-header {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    .add-job-btn {
+        color: white;
+    }
+
+}
