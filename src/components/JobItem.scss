@@ -1,5 +1,6 @@
 .job-item-container {
     display: flex;
+    align-items: center;
 
     .job-order-controls {
         display: flex;
@@ -8,7 +9,10 @@
     .job-content {
         width: 100%;
         display: flex;
-        .job-details {
+        align-items: center;
+        justify-content: space-between;
+        .job-item-details {
+            margin-left: 1rem;
         }
     }
 }

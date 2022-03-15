@@ -1,20 +1,21 @@
 import React from 'react'
 import './JobItem.scss'
+import { FaArrowUp, FaArrowDown,FaTrashAlt } from 'react-icons/fa';
 
 function JobItem({ job }) {
     return (
         <div className='job-item-container'>
             <div className='job-order-controls'>
-                <button>up</button>
-                <button>down</button>
+                <button><FaArrowUp /></button>
+                <button><FaArrowDown /></button>
             </div>
             <div className='job-content'>
-                <div className='job-details'>
+                <div className='job-item-details'>
                     <h1>{job.name}</h1>
                     <h2>{job.duration}</h2>
                 </div>
                 <div className='job-active-controls'>
-                    <button>trash</button>
+                    <button><FaTrashAlt color='#FF4433'/></button>
                 </div>
             </div>
         </div>

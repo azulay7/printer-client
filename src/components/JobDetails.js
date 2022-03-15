@@ -1,7 +1,7 @@
 import React from 'react'
 import './JobDetails.css'
 import '../style.css'
-
+import { FaPause } from 'react-icons/fa';
 function JobDetails({ job }) {
   return (
     <div className="job-details">
@@ -11,7 +11,7 @@ function JobDetails({ job }) {
           <span className='time-left'>20%</span>
         </div>
 
-        <button>pause</button>
+        <button> <FaPause /></button>
       </div>
 
       <div className='job-master-details'>
