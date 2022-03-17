@@ -21,9 +21,9 @@ function App() {
     // setJobs([{ name: 'job 1', duration: 0.3, status: "printing", startTime: new Date(Date.now() - 3) }, { name: 'job 2', duration: 0.4, status: "queue" }])
   }, [])
 
-  const addJob = newJob => {
+  const addJob = async newJob => {
     const newJobs = [...jobs, newJob];
-    postData(JOB_URL, newJob)
+    await postData(JOB_URL, newJob)
     setJobs(newJobs)
   }
   return (
