@@ -11,6 +11,7 @@ app.get('/api/v1/jobs/', (req, res) => {
 })
 
 app.post('/api/v1/jobs/', (req, res) => {
+    console.log(`post new Job ${req.body}`)
     const job = req.body;
     if (jobs.length == 0) {
         job.status = 'printing'
