@@ -9,6 +9,7 @@ import { useState } from 'react'
 
 function JobList({ jobs }) {
   const [openDialog, setOpenDialog] = useState(false)
+  
   const newJobDialog = () => {
     setOpenDialog(true)
   }
